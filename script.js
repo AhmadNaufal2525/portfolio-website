@@ -1,3 +1,13 @@
+document.getElementById('download-button').addEventListener('click', function() {
+    var link = document.createElement('a');
+    link.href = 'CV/CV_Ahmad Naufal Diwantara Putra.pdf';
+    link.download = 'CV_Ahmad Naufal Diwantara Putra.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 

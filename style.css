@@ -11,10 +11,10 @@
 }
 
 :root {
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --text-color: #fff;
-    --main-color: #0ef;
+    --bg-color: #222831;
+    --second-bg-color: #393E46;
+    --text-color: #EEEEEE;
+    --main-color: #BE9FE1;
 }
 
 html {
@@ -80,7 +80,7 @@ section {
     align-items: center;
 }
 
-.home-img img {
+lottie-player {
     width: 35vw;
     animation: floatImage 4x ease-in-out infinite;
 }
@@ -190,6 +190,7 @@ span {
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    text-align: justify;
 }
 
 .services h2 {
@@ -220,16 +221,17 @@ span {
 }
 
 .services-box i {
-    font-size: 7rem;
+    font-size: 6rem;
     color: var(--main-color);
 }
+
 
 .services-box h3 {
     font-size: 2.6rem;
 }
 
 .services-box p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin: 1rem 0 3rem;
 }
 
@@ -259,10 +261,12 @@ span {
 .portfolio-box img {
     width: 100%;
     transition: .5s ease;
+    
 }
 
 .portfolio-box:hover img {
     transform: scale(1.1);
+    filter: brightness(0.3);
 }
 
 .portfolio-box .portfolio-layer {
@@ -287,11 +291,11 @@ span {
 }
 
 .portfolio-layer h4 {
-    font-size: 3rem;
+    font-size: 1.2rem;
 }
 
 .portfolio-layer p {
-    font-size: 1.6rem;
+    font-size: 1rem;
     margin: .3rem 0 1rem;
 }
 
@@ -457,7 +461,7 @@ span {
         font-size: 5rem;
     }
 
-    .home-img img {
+    lottie-player {
         width: 70vw;
         margin-top: 4rem;
     }
@@ -501,7 +505,7 @@ span {
 }
 
 @media (max-width: 365px) {
-    .home-img img {
+    lottie-player {
         width: 90vw;
     }
 
